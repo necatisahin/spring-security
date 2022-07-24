@@ -1,6 +1,6 @@
-package com.necatisahiin.springsecuritybasicauth.repository;
+package com.necatisahiin.springsecurity.repository;
 
-import com.necatisahiin.springsecuritybasicauth.entity.User;
+import com.necatisahiin.springsecurity.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User,Long> {

@@ -4,15 +4,27 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login Page</title>
 </head>
 <body>
+<div align="center">
+	<h1>Login Page</h1>
+	${SPRING_SECURITY_LAST_EXCEPTION.message}
+	<form action ="/login" method="post">
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username" value=''></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name = "password"></td>
+			</tr>
+		</table>
 
-	<form action ="Login" method="post"> 
-		Enter Username: <input type="text" name="uname"><br>
-		Enter Password: <input type="password" name = "pass"><br>
-		
-		<input type = "submit" value="LogIn">
+		<input type = "submit" value="submit">
 	</form>
+</div>
+
 </body>
 </html>

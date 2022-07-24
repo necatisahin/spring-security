@@ -1,6 +1,6 @@
-package com.necatisahiin.springsecuritybasicauth.security;
+package com.necatisahiin.springsecurity.security;
 
-import com.necatisahiin.springsecuritybasicauth.entity.User;
+import com.necatisahiin.springsecurity.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

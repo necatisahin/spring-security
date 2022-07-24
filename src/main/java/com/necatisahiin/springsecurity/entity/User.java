@@ -1,4 +1,4 @@
-package com.necatisahiin.springsecuritybasicauth.entity;
+package com.necatisahiin.springsecurity.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

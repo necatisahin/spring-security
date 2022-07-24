@@ -11,6 +11,10 @@
     <title>Welcome Home Page</title>
 </head>
 <body>
-    <h1>Welcome Home Page</h1>
+<div align="center">
+    <h1 >Welcome Home Page</h1>
+    Logout Home
+    <a href="/logout" >logout</a>
+</div>
 </body>
 </html>

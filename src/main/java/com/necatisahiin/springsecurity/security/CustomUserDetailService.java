@@ -1,7 +1,7 @@
-package com.necatisahiin.springsecuritybasicauth.security;
+package com.necatisahiin.springsecurity.security;
 
-import com.necatisahiin.springsecuritybasicauth.entity.User;
-import com.necatisahiin.springsecuritybasicauth.repository.UserRepository;
+import com.necatisahiin.springsecurity.entity.User;
+import com.necatisahiin.springsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -19,6 +19,6 @@ public class CustomUserDetailService implements UserDetailsService {
         if(user==null){
             throw new UsernameNotFoundException("User Not Found :"+username);
         }
-        return new CustomUserDetails(user);
+        return new com.necatisahiin.springsecurity.security.CustomUserDetails(user);
     }
 }

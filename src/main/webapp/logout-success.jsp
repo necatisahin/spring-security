@@ -9,10 +9,12 @@
 <html>
 <head>
 
-    <title>Logout</title>
+    <title>Logout Page</title>
 </head>
 <body>
-  Logout Home
-  <a href="/home" >home</a>
+<div align="center">
+    Logout Home
+    <a href="/home" >home</a>
+</div>
 </body>
 </html>
